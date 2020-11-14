@@ -1,0 +1,8 @@
+<div class="post-comment">
+  <form [formGroup]="commentForm" (ngSubmit)="postComment()">
+    <div class="form-group">
+      <textarea class="form-control" [formControlName]="'text'" placeholder="Your Thoughts?"></textarea>
+    </div>
+    <input type="submit" class="login float-right" value="Comment" />
+  </form>
+</div>

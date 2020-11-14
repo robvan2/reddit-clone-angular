@@ -1,14 +1,8 @@
-body{
-    margin-top: 65px;
-}
-body, body * {
-    font-family: 'IBM Plex Sans', sans-serif;
-}
-input.ng-invalid.ng-touched{
-    border: 2px solid rgba(245, 110, 110, 0.897);
+.register-section{
+    margin-top: 100px;
 }
 
-.sign-up, .login{
+.sign-up {
     background-color: #0079D3;
     border-color: #0079D3;
     color: aliceblue;
@@ -26,7 +20,7 @@ input.ng-invalid.ng-touched{
     opacity: 1;
   }
 
-.sign-up:hover, .login:hover{
+.sign-up:hover{
     opacity: 0.8;
     transition: all 0.3s;
 }

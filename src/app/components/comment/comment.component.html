@@ -1,0 +1,12 @@
+<div style="margin-top: 60px;">
+  <div class="comment">
+    <div class="username">
+      <a routerLink="/user/comment.username">{{comment.userName}}</a>
+    </div>
+    <div>
+      <p>{{comment.createdDate | timeago}}</p>
+    </div>
+    <b>{{comment.text}}</b>
+  </div>
+  <hr />
+</div>
